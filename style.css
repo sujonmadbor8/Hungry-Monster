@@ -1,0 +1,55 @@
+#searchSection {
+    text-align: center;
+    font-size: 35px;
+}
+
+#searchInput {
+    background-color: lightgrey;
+    margin-right: -10px;
+}
+
+#searchInput,
+.searchBtn {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    font-size: 18px;
+}
+
+.searchBtn {
+    background-color: orange;
+    margin-left: 0;
+}
+
+.meal {
+    margin: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.meal-img img {
+    width: 220px;
+    height: 210px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.meal-name {
+    padding-top: 3px;
+}
+
+#meals {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.card-meal {
+    background-color: lightgrey;
+    width: 220px;
+    height: 250px;
+    border-radius: 15px;
+}
+
+#mealDetail {
+    cursor: pointer;
+}
